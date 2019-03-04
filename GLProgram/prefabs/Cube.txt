@@ -1,0 +1,10 @@
+Cube
+
+Dimensions
+1.0 1.0 1.0
+
+Mass
+1.0
+
+Texture
+res/textures/mosaic.jpg

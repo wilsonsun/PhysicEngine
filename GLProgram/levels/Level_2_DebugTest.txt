@@ -1,0 +1,23 @@
+Cube.txt
+Position
+1.5 1.5 1.5
+
+Cube.txt
+Position
+4.5 3.5 1.5
+
+Cube.txt
+Position
+3.5 2.5 1.5
+
+Cube.txt
+Position
+3.5 1.5 1.5
+
+Cube_TALL.txt
+Position
+1.5 1.5 0.0
+
+Cube_WIDE.txt
+Position
+-1.5 1.5 -1.5

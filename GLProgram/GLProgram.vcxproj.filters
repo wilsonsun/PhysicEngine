@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{92d5978f-5ac0-494c-acc4-9f6e2a4c9afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{85614cf5-ee7c-4bbc-8386-304cd8c7b6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders">
+      <UniqueIdentifier>{4a8b8369-53d7-4362-bfc6-549a72300b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{d8b65315-d08e-46f2-aefb-542ea45e0d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObject">
+      <UniqueIdentifier>{858fd217-2167-41ba-8480-a0bdf2549b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Managers">
+      <UniqueIdentifier>{70b9a30e-7006-4bb4-b648-d30e6da7f988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Systems">
+      <UniqueIdentifier>{94ffa2ba-b1fb-4f91-b406-9e24713e34a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ImGui">
+      <UniqueIdentifier>{286b7390-5511-4d28-95e6-c0d8c4375a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BroadPhase">
+      <UniqueIdentifier>{253159ab-edf6-4a0a-8c62-fe23b53d5021}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\IndexBuffer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Renderer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Shader.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\stb_image.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Texture.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\VertexArray.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\VertexBuffer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameObject.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Managers\GameObjectManager.cpp">
+      <Filter>src\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Systems\GraphicSystem.cpp">
+      <Filter>src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_draw.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_impl_glfw_gl3.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Systems\UISystem.cpp">
+      <Filter>src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\RigidBodyComponent.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GraphicComponent.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GeometryComponent.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GeometryCube.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Managers\PhysicManager.cpp">
+      <Filter>src\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BroadPhase\OctTree.cpp">
+      <Filter>src\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BroadPhase\BoundingBox.cpp">
+      <Filter>src\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Systems\PhysicSystem.cpp">
+      <Filter>src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BroadPhase\Contact.cpp">
+      <Filter>src\BroadPhase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic.shader">
+      <Filter>res\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Graphics\Camera.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Debug.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\IndexBuffer.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Renderer.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Shader.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\stb_image.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Texture.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\VertexArray.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\VertexBuffer.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\VertexBufferLayout.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\debug_draw.hpp">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameObject.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Managers\GameObjectManager.h">
+      <Filter>src\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\GraphicSystem.h">
+      <Filter>src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\DebugRenderInterface.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imconfig.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui_impl_glfw_gl3.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui_internal.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_rect_pack.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_textedit.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_truetype.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\UISystem.h">
+      <Filter>src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\RigidBodyComponent.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GraphicComponent.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GeometryComponent.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GeometryCube.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Managers\PhysicManager.h">
+      <Filter>src\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BroadPhase\OctTree.h">
+      <Filter>src\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BroadPhase\BoundingBox.h">
+      <Filter>src\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\PhysicSystem.h">
+      <Filter>src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BroadPhase\Contact.h">
+      <Filter>src\BroadPhase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
